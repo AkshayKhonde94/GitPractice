@@ -8,6 +8,7 @@ public class decimalToBinary {
 	public static void main(String[] args) {
 		int dec_num, quot, i=1, j;
 	    int bin_num[] = new int[100];
+	    
 	    Scanner scan = new Scanner(System.in);
 		
 	    System.out.print("Input a Decimal Number : ");
@@ -27,6 +28,8 @@ public class decimalToBinary {
 	        System.out.print(bin_num[j]);
 	    }
 	    System.out.print("\n");
+	    
+	    scan.close();
 	}
 	}
 	

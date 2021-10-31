@@ -13,8 +13,8 @@ public class sumof2numbers {
 		//12
 		//24
 		//Addition of 12 and 24 is 36
-
-
+		System.out.println("SUM IS " + (num1+num2));
+		scan.close();
 	}
 
 }
