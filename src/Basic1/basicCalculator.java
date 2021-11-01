@@ -9,12 +9,16 @@ public class basicCalculator {
 		System.out.println(div(12, 24));
 
 	}
+	
+	/*  Method to calculate sum    */
 
 	public static int sum(int num1, int num2) {
 
 		return num1 + num2;
 	}
+	
 
+/*  Method to calculate sub    */
 	public static int sub(int num1, int num2) {
 
 		return num1 - num2;
